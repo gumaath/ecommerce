@@ -13,9 +13,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Bootstrap 2.3.6 -->
   <link rel="stylesheet" href="/res/admin/bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/1.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/1.3.0/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="/res/admin/dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
@@ -78,7 +78,7 @@ desired effect
           <li class="dropdown messages-menu">
             <!-- Menu toggle button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-envelope-o"></i>
+              <i class="ion-ios7-email-outline"></i>
               <span class="label label-success">3</span>
             </a>
             <ul class="dropdown-menu">
@@ -95,7 +95,7 @@ desired effect
                       <!-- Message title and timestamp -->
                       <h3>
                         Support Team
-                        <small><i class="fa fa-clock-o"></i> 4 mins</small>
+                        <small><i class="ion-ios7-clock"></i> 4 mins</small>
                       </h3>
                       <!-- The message -->
                       <p>Why not buy a new awesome theme?</p>
@@ -114,7 +114,7 @@ desired effect
           <li class="dropdown notifications-menu">
             <!-- Menu toggle button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-bell-o"></i>
+              <i class="ion-ios7-bell"></i>
               <span class="label label-warning">9</span>
             </a>
             <ul class="dropdown-menu">
@@ -137,7 +137,7 @@ desired effect
           <li class="dropdown tasks-menu">
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-flag-o"></i>
+              <i class="ion-ios7-flag-outline"></i>
               <span class="label label-danger">8</span>
             </a>
             <ul class="dropdown-menu">
@@ -209,14 +209,14 @@ desired effect
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="/admin/logout" class="btn btn-default btn-flat">Sign out</a>
                 </div>
               </li>
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
           <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+            <a href="#" data-toggle="control-sidebar"><i class="ion-gear-a"></i></a>
           </li>
         </ul>
       </div>
@@ -256,10 +256,10 @@ desired effect
       <ul class="sidebar-menu">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-        <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
+        <li class="active"><a href="#"><i class="ion-link"></i> <span>Link</span></a></li>
+        <li><a href="#"><i class="ion-link"></i> <span>Another Link</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+          <a href="#"><i class="ion-link"></i> <span>Multilevel</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
