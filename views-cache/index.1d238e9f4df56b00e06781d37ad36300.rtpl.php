@@ -86,8 +86,7 @@
                 <div class="product-carousel">
                     <div class="single-product">
                         <div class="product-f-image">
-                            <img src="/res/site/img/product-1.jpg" alt="">
-                            <div class="product-hover">
+                            <img src="/res/site/img/produc/res/site/
                                 <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                 <a href="#" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                             </div>
