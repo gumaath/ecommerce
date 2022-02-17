@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-9">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 1 | Starter</title>
+  <title>Painel AdminLTE</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=0, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 2.3.6 -->

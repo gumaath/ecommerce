@@ -2,10 +2,10 @@
   <footer class="main-footer">
     <!-- To the right -->
     <div class="pull-right hidden-xs">
-      Anything you want
+      Painel top (:
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2022 <a href="https://www.twitch.tv/gumaath" target="_blank">GumaINC</a>.</strong> All rights reserved.
   </footer>
 
   <!-- Control Sidebar -->
