@@ -1,2 +1,2 @@
 vendor/hcodebr/php-classes/src/Credentials.php
-views-cache/*
+/views-cache
