@@ -18,8 +18,6 @@ class Category extends Model {
             ":idcategory"=>$this->getidcategory(),
             ":descategory"=>$this->getdescategory(),
         ));
-        var_dump($results);
-        var_dump($_POST);
         $this->setData($results[0]);
     
         Category::updateFile();

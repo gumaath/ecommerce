@@ -258,6 +258,7 @@ desired effect
         <!-- Optionally, you can add icons to the links -->
         <li><a href="/admin/users"><i class="ion-link"></i> <span>Usuários</span></a></li>
         <li><a href="/admin/categories"><i class="ion-link"></i> <span>Categorias</span></a></li>
+        <li><a href="/admin/products"><i class="ion-link"></i> <span>Produtos</span></a></li>
         <li class="treeview">
           <a href="#"><i class="ion-link"></i> <span>Multilevel</span>
             <span class="pull-right-container">
