@@ -3,6 +3,7 @@
 namespace Hcode\Model;
 
 use \Hcode\DB\Sql;
+use \Hcode\Credentials;
 use \Hcode\Model;
 use \Hcode\Mailer;
 
@@ -16,10 +17,6 @@ class User extends Model {
     ];
 */
     const SESSION = "User";
-
-    const SECRET = "TestePhp7_Secret";
-    const SECRET_IV = "HcodePhp7_Secret_IV";
-
 
     public static function login($login, $password) {
         $sql = new Sql();
@@ -137,7 +134,7 @@ class User extends Model {
                 throw new \Exception("Não fopi possivel recuperar a senha");
             } else {
                 $dataRecovery = $results2[0];
-                $code = openssl_encrypt($dataRecovery['idrecovery'], 'AES-128-CBC', pack("a16", User::SECRET), 0, pack("a16", User::SECRET_IV));
+                $code = openssl_encrypt($dataRecovery['idrecovery'], 'AES-128-CBC', pack("a16", Credentials::SECRET), 0, pack("a16", Credentials::SECRET_IV));
 
                 $code = base64_encode($code);
 
@@ -158,7 +155,7 @@ class User extends Model {
     public static function validForgotDecrypt($code) {
         $code = base64_decode($code);
        
-        $idrecovery = openssl_decrypt($code, 'AES-128-CBC', pack("a16", User::SECRET), 0, pack("a16", User::SECRET_IV));
+        $idrecovery = openssl_decrypt($code, 'AES-128-CBC', pack("a16", Credentials::SECRET), 0, pack("a16", Credentials::SECRET_IV));
 
         $sql = new Sql();
 

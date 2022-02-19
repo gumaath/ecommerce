@@ -2,12 +2,10 @@
 
 namespace Hcode\DB;
 
+use \Hcode\Credentials;
+
 class Sql {
 
-	const HOSTNAME = "127.0.0.1";
-	const USERNAME = "guma";
-	const PASSWORD = "senha1234";
-	const DBNAME = "db_ecommerce";
 
 	private $conn;
 
@@ -15,9 +13,9 @@ class Sql {
 	{
 
 		$this->conn = new \PDO(
-			"mysql:dbname=".Sql::DBNAME.";host=".Sql::HOSTNAME, 
-			Sql::USERNAME,
-			Sql::PASSWORD
+			"mysql:dbname=".Credentials::DBNAME.";host=".Credentials::HOSTNAMEDB, 
+			Credentials::USERNAMEDB,
+			Credentials::PASSWORDDB
 		);
 
 	}
