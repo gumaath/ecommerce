@@ -16,6 +16,4 @@ require_once("admin-categories.php");
 require_once("admin-products.php");
 
 $app->run();
-# TODO:
-# Hide secret credentials and sql credentials
 ?>
